@@ -2,4 +2,13 @@ from to_do import TODO
 
 
 def task9():
-    return TODO("Erase this line and write your solution")
+    return """
+    Insert card
+    Put your pincode in
+    Give amount to withdraw
+    Take the money
+    Dont forget your card
+    
+    
+    
+    """
