@@ -1,7 +1,12 @@
 from to_do import TODO
 
 
-def task4(base, height):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+def task4():
+    h = int(input('input the height:'))
+    b = int(input('input the base:'))
+    area = h * b / 2
+    print("area = ", area)
+
+if __name__ == "__main__":
+    task4()
+
