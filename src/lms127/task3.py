@@ -1,14 +1,9 @@
 from to_do import TODO
 
 
-def task3():
-    PI = 3.14
-    R = float(input('radius of circle:'))
-    perimeter = (2 * PI * R)
-    print('result is', perimeter)
-
+def task3(radius):
+    result =2.0 * 3.1416 * radius
+    return result
 
 if __name__ == "__main__":
-    task3()
-
-
+    print(task3(radius=2.0))
