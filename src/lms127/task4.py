@@ -1,12 +1,9 @@
 from to_do import TODO
 
 
-def task4():
-    h = int(input('input the height:'))
-    b = int(input('input the base:'))
-    area = h * b / 2
-    print("area = ", area)
+def task4(base, height):
+    result =base * height / 2
+    return result
 
 if __name__ == "__main__":
-    task4()
-
+    print(task4(base=5, height=10.0))
