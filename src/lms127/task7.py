@@ -1,8 +1,9 @@
 from to_do import TODO
 
 
-def task7():
-    sentence = (input('write an sentence to count the characters:'))
-    print("result is", len(sentence))
+def task7(sentence):
+    result =len(sentence)
+    return result
+
 if __name__ == "__main__":
-    task7()
+    print(task7(sentence= 'I love GBG'))
