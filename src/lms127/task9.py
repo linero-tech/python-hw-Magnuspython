@@ -2,6 +2,13 @@ from to_do import TODO
 
 
 def task9(sentence, character):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+
+        if character in sentence:
+            print('true')
+        else:
+            print('false')
+
+
+if __name__ == "__main__":
+        print("result is",task9("I code in KOTLIN", "i"))
+
