@@ -1,14 +1,10 @@
-from to_do import TODO
+
 
 
 def task9(sentence, character):
 
-        if character in sentence:
-            print('true')
-        else:
-            print('false')
-
-
+            result = character in sentence
+            return result
 if __name__ == "__main__":
-        print("result is",task9("I code in KOTLIN", "i"))
+        print("result is",task9("I code in KOTLIN", "I"))
 
